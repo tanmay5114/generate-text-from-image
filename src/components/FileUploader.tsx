@@ -11,7 +11,7 @@ export default function FileUploader() {
         <div>
             <Button className="hover:bg-yellow-400">
                 <Label htmlFor="file">Upload</Label>
-                <Input id="file" type="file" className="hidden" onChange={handleFileChange}/>
+                <Input id="file" type="file" multiple className="hidden" onChange={handleFileChange}/>
             </Button>
         </div>
     )
